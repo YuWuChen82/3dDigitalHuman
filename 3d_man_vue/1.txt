@@ -1,0 +1,16 @@
+//用户登录
+
+请求方式：POST
+{
+    "username": "admin",
+    "password": "123456"
+}
+
+响应：{
+    "msg": "登录成功",
+
+    //以下内容只有登录成功才有
+     isFirstLogin: false, //是否第一次登录
+     //假如首次登录
+     aeTherText:["我是aeTHer001"，]//目前有变量的消息只有这一条
+     }
